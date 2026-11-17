@@ -16,3 +16,14 @@ WHERE policyType = 'Home';
 -- Sort by age
 SELECT client_name, client_address, client_age FROM CLIENT
 ORDER BY client_age DESC;
+
+-- Average age
+SELECT AVG(client_age) FROM CLIENT;
+
+-- 22 > age > 40
+SELECT client_name, client_age FROM CLIENT
+WHERE client_age BETWEEN 22 AND 40;
+
+-- Home policies <= 250k
+SELECT * FROM POLICY
+WHERE policyLimits <= '$250000' AND policyType = 'Home';
