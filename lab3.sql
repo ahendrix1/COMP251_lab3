@@ -1,5 +1,3 @@
-include schema.sql;
-
 -- DML
 USE insurance_db;
 
@@ -14,6 +12,10 @@ WHERE clientID = 5;
 -- Home policies
 SELECT * FROM POLICY
 WHERE policyType = 'Home';
+
+-- yearly term
+SELECT * FROM POLICY
+WHERE policyTerm = 'yearly';
 
 -- Sort by age
 SELECT client_name, client_address, client_age FROM CLIENT
