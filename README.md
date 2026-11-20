@@ -28,39 +28,55 @@ You will record your relationships within this readme file.  When writing down t
 Create a file called **lab3.sql** and add the following queries into the file.  You will need to take a screenshot of the rendered output for each command and place a screenshot of your output beneath the example output provided.  Make sure to place a SQL comment above each command identifying the query.  In order to make changes to the data, you may need to change the SQL Editor settings.  You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updates.  It is advised to restart MySQL Workbench after changing this setting.
 <br>First, write the SQL commands to insert data into each of the tables. Your insert statements should also be included in the lab3.sql file.  **The data files are listed in the repository for this lab**
 1.  Write the SQL command to list all clients and all the columns pertaining to a client.  The intended output is below.
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/1.PNG" width="350" alt="output query 1"/>
+<img width="651" height="311" alt="1" src="https://github.com/user-attachments/assets/6a9874c0-ee2e-4432-8d2e-2e053814ec01" />
+
 2.  Write the SQL command to change client Chris Isaac to Chris Pearson.  No output for this command
 
 3.  Write the SQL command to display all policies that have a policy type of 'Home'.
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/3.PNG" width="300" alt="output query 3"/>
+<img width="640" height="198" alt="3" src="https://github.com/user-attachments/assets/d7ce9bd8-fa03-4fad-93fe-d8effd6870d1" />
+
 4.  Write the SQL command to display all columns for policies that have yearly terms
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/4.PNG" width="300" alt="output query 4"/>
+<img width="609" height="170" alt="4" src="https://github.com/user-attachments/assets/13c27435-e22f-43ac-9313-db4dcb7e5df5" />
+
 5.  Write the SQL command that displays the client name, address, and age sorted by age in descending order in the figure below
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/5.PNG" width="300" alt="output query 5"/>
+<img width="496" height="238" alt="5" src="https://github.com/user-attachments/assets/6e954ed5-b295-4d8e-92de-11bd343dd3ca" />
+
 6.  Write the SQL command that calculates the average age of all clients
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/6.PNG" width="90" alt="output query 6"/>
+<img width="265" height="146" alt="6" src="https://github.com/user-attachments/assets/f941aa91-3249-43f5-b753-8602efd77ed5" />
+
 7.  Write the SQL command that lists the name and age of clients who are between the ages of 22 and 40
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/7.PNG" width="180" alt="output query 7"/>
+<img width="479" height="173" alt="7" src="https://github.com/user-attachments/assets/b8b7307d-c1db-47f4-8436-6faa5b4fe559" />
+
 8.  Write the SQL command that lists all home policies that have a policy limit less than or equal to $250,000.
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/8.PNG" width="270" alt="output query 8"/>
+<img width="566" height="103" alt="8" src="https://github.com/user-attachments/assets/f9f823a9-f8fe-449a-8a39-659db7785675" />
+
 9.  Write the SQL  command that lists the client's name and address for all addresses that contain 'Featherstone' and order by age in ascending order.
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/9.PNG" width="200" alt="output query 9"/>
+<img width="328" height="105" alt="9" src="https://github.com/user-attachments/assets/53753dd2-a56b-4504-808f-a17064236d5e" />
+
 10.  Write the SQL command that lists the name, address, and age of clients who are age 35 and above and whose address contains the number 8
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/10.PNG" width="300" alt="output query 10"/>
+<img width="459" height="146" alt="10" src="https://github.com/user-attachments/assets/d0efc668-b3f5-4a9b-b78a-ac2d00ccc961" />
+
 11.  Write the SQL command that returns the total # of policies offered
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/11.PNG" width="80" alt="output query 11"/>
+<img width="172" height="54" alt="11" src="https://github.com/user-attachments/assets/f5aea05e-e6e4-4fb3-a760-6bb7cc142a23" />
+
 12.  Write the SQL command that returns the policy type and the total count of policies by type
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/12.PNG" width="170" alt="output query 12"/>
+<img width="301" height="61" alt="12" src="https://github.com/user-attachments/assets/c6295f92-f220-4d8a-9a97-e7ffad3e371a" />
+
 13.  Write the SQL command that returns the youngest and oldest client
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/13.PNG" width="170" alt="output query 13"/>
+
+<img width="491" height="83" alt="13" src="https://github.com/user-attachments/assets/771f9425-8cfa-4933-8e85-e2a36f19abc6" />
+
 14.  Write the SQL command that lists all clients that have a home insurance policy
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/14.PNG" width="450" alt="output query 14"/>
+<img width="896" height="260" alt="14" src="https://github.com/user-attachments/assets/106ac1cf-e828-411c-908b-7c7e74762b45" />
+
 15.  Write the SQL command that lists all of the instances of a policy where the client ID is equal to #2
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/15.PNG" width="450" alt="output query 15"/>
+<img width="900" height="139" alt="15" src="https://github.com/user-attachments/assets/594a41c9-43ce-489c-ac06-fcd5adbc7e83" />
+
 
 ### Extra Credit (2 Points)
 List all clients along with their respective policies.<br>
-<img src="https://instructorc.github.io/site/slides/database/images/lab3/ec.PNG" width="550" alt="output query Extra credit"/>
+<img width="1378" height="373" alt="16" src="https://github.com/user-attachments/assets/93576272-d731-4f1e-b271-3f36ec98b990" />
+
 
 
 
